@@ -58,3 +58,7 @@ Let's call `{ Site 3 }` our most recent "`future entry`".
 **Related question:**  
 Can the constraint be dropped, that the home screen has to be reached, in order to create a new
 future entry? Maybe we should create a fitting JavaScript API?
+
+***
+
+[Discussion Issue](https://github.com/pguth/fxos-proposal_history-ui/issues/1)
