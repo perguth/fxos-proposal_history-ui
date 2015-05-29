@@ -47,7 +47,7 @@ User goes to the home screen (let's call it `hub`) and then activates any other 
       [# User viewing entry of site 4 #] ->
         {{ Site 4 }} ->
           [#] ->
-            {{ Site 3 }} -> |
+            {{ Site 3 }} -> y
 
 Let's call `{ Site 3 }` now our most recent "future entry".
 
