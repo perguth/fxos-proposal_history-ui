@@ -16,7 +16,7 @@ x ->
 
 **(FxOS state:) History mode active:**  
 
-_Currently exclusively reachable by pressing the physical homes screen key._
+Sidenote: Currently exclusively reachable by pressing the physical homes screen key.
 
 ```
 x ->
