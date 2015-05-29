@@ -20,38 +20,38 @@ Sidenote: Currently exclusively reachable by pressing the physical homes screen 
 
 ```
 x ->
-  {{ Site 1 }} ->
+  { Site 1 } ->
     [#] ->
-      {{ Site 2 }} ->
+      { Site 2 } ->
         [# User viewing entry of site 3 #] ->
-          {{ Site 3 }} -> y
+          { Site 3 } -> y
 
 x ->
-  {{ Site 1 }} ->
+  { Site 1 } ->
     [# User viewing entry of site 2 #] ->
-      {{ Site 2 }} ->
+      { Site 2 } ->
         [#] ->
-          {{ Site 3 }} -> y
+          { Site 3 } -> y
 
 x ->
-  {{ Site 1 }} ->
+  { Site 1 } ->
     [# User viewing site 2 #] () =>
-      {{ Site 2 }} ->
+      { Site 2 } ->
         [#] ->
-          {{ Site 3 }} -> y
+          { Site 3 } -> y
 ```
 
 User goes to the home screen (let's call it the `hub`) and then activates any other app from there (let's say `Site 4`).
 
 ```
 x ->
-  {{ Site 1 }} ->
+  { Site 1 } ->
     [#] ->
-      {{ Site 2 }} ->
+      { Site 2 } ->
         [# User viewing site 4 #] () =>
-          {{ Site 4 }} ->
+          { Site 4 } ->
             [#] ->
-              {{ Site 3 }} -> y
+              { Site 3 } -> y
 ```
 
 Let's call `{ Site 3 }` our most recent "`future entry`".
