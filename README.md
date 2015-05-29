@@ -56,5 +56,5 @@ User goes to the home screen (let's call it the `hub`) and then activates any ot
 Let's call `{ Site 3 }` our most recent "`future entry`".
 
 **Related question:**  
-Can the requirement be dropped that the home screen has to be reached in order to create a new
-future entry? Maybe create a fitting API to create furure entries from a websites JS code?
+Can the constraint be dropped, that the home screen has to be reached, in order to create a new
+future entry? Maybe we should create a fitting JavaScript API?
