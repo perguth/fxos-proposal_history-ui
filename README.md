@@ -3,7 +3,7 @@
 
 _Proposed behaviour exemplified:_
 
-**(fxos state:) Site open/active:**
+**(FxOS state:) Site open/active:**
 
 ```
 x ->
@@ -14,7 +14,7 @@ x ->
         { Site 3 } -> y
 ```
 
-**(fxos state:) History mode active (currently reachable by pressing the physical homes screen key):**
+**(FxOS state:) History mode active (currently reachable by pressing the physical homes screen key):**
 
 ```
 x ->
