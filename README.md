@@ -3,7 +3,7 @@
 
 _Proposed behaviour exemplified:_
 
-## fxos state: site open/active:
+**(fxos state:) Site open/active:**
 
 ```
 x ->
@@ -14,7 +14,7 @@ x ->
         { Site 3 } -> y
 ```
 
-## fxos state: history mode active (currently reachable by pressing the physical homes screen key):
+**(fxos state:) History mode active (currently reachable by pressing the physical homes screen key):**
 
 ```
 x ->
@@ -37,10 +37,11 @@ x ->
     {{ Site 2 }} ->
       [#] ->
         {{ Site 3 }} -> y
+```
 
+User goes to the home screen (let's call it the `hub`) and then activates any other app from there (let's say `Site 4`).
 
-User goes to the home screen (let's call it `hub`) and then activates any other app from there (let's say "Site 4").
-
+```
 {{ Site 1 }} ->
   [#] ->
     {{ Site 2 }} ->
@@ -48,9 +49,10 @@ User goes to the home screen (let's call it `hub`) and then activates any other 
         {{ Site 4 }} ->
           [#] ->
             {{ Site 3 }} -> y
+```
 
-Let's call `{ Site 3 }` now our most recent "future entry".
+Let's call `{ Site 3 }` our most recent "`future entry`".
 
-**Related question:**\
+**Related question:**  
 Can the requirement be dropped that the home screen has to be reached in order to create a new
 future entry? Maybe create a fitting API to create furure entries from a websites JS code?
