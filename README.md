@@ -7,25 +7,27 @@ _Proposed behaviour exemplified:_
 
 ```
 x ->
-{ Site 1 }
+{ Site 1 } ->
   [#] ->
     { Site 2 } ->
-      [# User using site 3 #] =>
+      [# User using site 3 #] () =>
         { Site 3 } -> y
 ```
 
-**(FxOS state:) History mode active (currently reachable by pressing the physical homes screen key):**
+**(FxOS state:) History mode active:**  
+
+_Currently exclusively reachable by pressing the physical homes screen key._
 
 ```
 x ->
-{{ Site 1 }}
+{{ Site 1 }} ->
   [#] ->
     {{ Site 2 }} ->
       [# User viewing entry of site 3 #] ->
         {{ Site 3 }} -> y
 
 x ->
-{{ Site 1 }}
+{{ Site 1 }} ->
   [# User viewing entry of site 2 #] ->
     {{ Site 2 }} ->
       [#] ->
@@ -33,7 +35,7 @@ x ->
 
 x ->
 {{ Site 1 }} ->
-  [# User activating/then viewing site 2 #] =>
+  [# User viewing site 2 #] () =>
     {{ Site 2 }} ->
       [#] ->
         {{ Site 3 }} -> y
@@ -45,7 +47,7 @@ User goes to the home screen (let's call it the `hub`) and then activates any ot
 {{ Site 1 }} ->
   [#] ->
     {{ Site 2 }} ->
-      [# User viewing entry of site 4 #] ->
+      [# User viewing site 4 #] () =>
         {{ Site 4 }} ->
           [#] ->
             {{ Site 3 }} -> y
