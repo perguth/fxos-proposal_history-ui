@@ -1,5 +1,5 @@
 # fxos-proposal_history-ui
-##### "The past affects the future" - a different `history` viewer concept exemplified
+##### "The past affects the future" - a different app history viewer concept exemplified
 
 _Proposed behaviour exemplified:_
 
