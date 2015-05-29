@@ -5,7 +5,7 @@ _Proposed behaviour exemplified:_
 
 **(FxOS state:) History mode active:**  
 
-Sidenote: Currently exclusively reachable by pressing the physical homes screen key.
+Exclusively reachable by pressing the physical homes screen key.
 
 The user sees the history browser. He/she has already opened a few apps so he/she see a couple of them in hir history. The following graph depicts a user that has 3 items in hir history.
 
