@@ -61,4 +61,4 @@ future entry? Maybe we should create a fitting JavaScript API?
 
 ***
 
-[Discussion Issue](https://github.com/pguth/fxos-proposal_history-ui/issues/1)
+* [Discussion Issue](https://github.com/pguth/fxos-proposal_history-ui/issues/1)
