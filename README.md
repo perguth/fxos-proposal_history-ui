@@ -1,7 +1,7 @@
 # fxos-proposal_history-ui
 ##### "The past affects the future" - a different app history viewer concept exemplified
 
-I want to illustrate my proposal with this short user experience story: Depict a FxOS user. He has already opened 3 apps by now. The following graph depicts, in an abstract form, what the user sees when he opens the FirefoxOS history viewer.
+I want to illustrate my proposal with this short user experience story: Depict a FxOS user. He has already opened 3 apps by now. The following graph depicts, in an abstract form, what the user sees when he opens the FirefoxOS history viewer:
 
 ```
 { App 1 }
@@ -9,7 +9,7 @@ I want to illustrate my proposal with this short user experience story: Depict a
       -> { App 3 }
 ```
 
-The User opens the `history viewer` and activates `App 2`.
+The User opens the `history viewer` and activates `App 2`:
 
 ```
 { App 1 }
@@ -17,7 +17,7 @@ The User opens the `history viewer` and activates `App 2`.
       -> { App 3 }
 ```
 
-The User goes to the `home screen` and from there activates any other app (let's say `App 4`). He then opens the history viewer:
+The User goes to the `home screen` and from there activates any other app (let's say `App 4`). He then opens the `history viewer`:
 
 ```
   { App 1 }
@@ -25,7 +25,7 @@ The User goes to the `home screen` and from there activates any other app (let's
           -> { App 4 }
 ```
 
-FirefoxOS cuts off here. I propose to change that so that the user would rather see this:
+Note that FirefoxOS has cut something off here. I propose to change that so the user would rather see this:
 
 ```
   { App 1 }
