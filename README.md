@@ -20,18 +20,18 @@ The user opens the `app history viewer` and activates `App 2`:
 The User goes to the `home screen` and from there activates any other app (let's say `App 4`). He then opens the `app history viewer`:
 
 ```
-  { App 1 }
-      -> { App 2 }
-          -> { App 4 }
+{ App 1 }
+    -> { App 2 }
+        -> { App 4 }
 ```
 
 Note that FirefoxOS has cut something off here. I propose to change that so the user would rather see this:
 
 ```
-  { App 1 }
-      -> { App 2 }
-          -> { App 4 } --- in focus since most recently used
-              -> { App 3 }
+{ App 1 }
+    -> { App 2 }
+        -> { App 4 } --- in focus since most recently used
+            -> { App 3 }
 ```
 
 
