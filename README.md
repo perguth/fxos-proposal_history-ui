@@ -9,11 +9,11 @@ I want to illustrate my proposal with this short user experience story: Depict a
       -> { App 3 }
 ```
 
-The User opens the `app history viewer` and activates `App 2`:
+The user opens the `app history viewer` and activates `App 2`:
 
 ```
 { App 1 }
-  -> { App 2 } --- User using App 2
+  -> { App 2 } --- user using App 2
       -> { App 3 }
 ```
 
