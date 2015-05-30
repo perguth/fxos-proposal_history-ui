@@ -28,7 +28,7 @@ The User goes to the `home screen` and from there activates any other app (let's
               -> { Site 3 }
 ```
 
-Now let's call `{ Site 3 }` our most recent "`future entry`". ***I propose:*** FxOS should show it in the UI. Currently it cuts off after `{ Site 4}`.
+Now let's call `{ Site 3 }` our most recent "`future entry`". I propose FxOS should show it in the UI. Currently it cuts off after `{ Site 4}`.
 
 **Related question:**  
 Can the constraint be dropped, that the home screen has to be reached, in order to create a new
