@@ -1,38 +1,45 @@
 # fxos-proposal_history-ui
 ##### "The past affects the future" - a different app history viewer concept exemplified
 
-I want to illustrate my proposal with this short user experience story:
-
-Depict a FxOS user. The following graph shows him having 3 items in his history:
+I want to illustrate my proposal with this short user experience story: Depict a FxOS user. He has already opened 3 apps by now. The following graph depicts, in an abstract form, what the user sees, when he opens the FirefoxOS history viewer.
 
 ```
-{ Site 1 }
-  -> { Site 2 }
-      -> { Site 3 } --- User using `Site 3`
+{ App 1 }
+  -> { App 2 }
+      -> { App 3 }
 ```
 
-The User opens the `history viewer` and activates `Site 2`.
+The User opens the `history viewer` and activates `App 2`.
 
 ```
-{ Site 1 }
-  -> { Site 2 } --- User using Site 2
-      -> { Site 3 }
+{ App 1 }
+  -> { App 2 } --- User using App 2
+      -> { App 3 }
 ```
 
-The User goes to the `home screen` and from there activates any other app (let's say `Site 4`).
+The User goes to the `home screen` and from there activates any other app (let's say `App 4`). He then opens the history viewer:
 
 ```
-  { Site 1 }
-      -> { Site 2 }
-          -> { Site 4 } ---- User using `Site 4`
-              -> { Site 3 }
+  { App 1 }
+      -> { App 2 }
+          -> { App 4 }
 ```
 
-Now let's call `{ Site 3 }` our most recent "`future entry`". But when the user opens the history viewer he will not see `{ Site 3 }` anymore, it cuts off after `{ Site 4 }`. I propose FxOS should display "future entries" to the user.
+FirefoxOS cuts off here. I propose to change that so that the user would rather see this:
+
+```
+  { App 1 }
+      -> { App 2 }
+          -> { App 4 }
+              -> { App 3 }
+```
+
+
+Let's call `{ App 3 }` our most recent "`future entry`" and allow for endlessly deep nesting.
 
 **Related question:**  
-Can the constraint be dropped, that the home screen has to be reached, in order to create a new
-future entry? Maybe we should create a fitting JavaScript API?
+Can the constraint be dropped, that the home screen has to be activated, in order to create a new
+future entry? Maybe we should create a fitting JavaScript API to do that programmatically?
 
 ***
 
