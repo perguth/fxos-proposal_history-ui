@@ -37,10 +37,6 @@ Note that FirefoxOS has cut something off here. I propose to change that so the 
 
 Let's call `{ App 3 }` our most recent "`future entry`" and allow for endlessly deep nesting.
 
-**Related question:**  
-Can the constraint be dropped, that the home screen has to be activated, in order to create a new
-future entry? Maybe we should create a fitting JavaScript API to do that programmatically?
-
 ***
 
 * [Discussion Issue](https://github.com/pguth/fxos-proposal_history-ui/issues/1)
