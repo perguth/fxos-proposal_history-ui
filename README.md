@@ -30,7 +30,7 @@ Note that FirefoxOS has cut something off here. I propose to change that so the 
 ```
   { App 1 }
       -> { App 2 }
-          -> { App 4 }
+          -> { App 4 } --- in focus since most recently used
               -> { App 3 }
 ```
 
