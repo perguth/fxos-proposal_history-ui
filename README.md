@@ -1,5 +1,5 @@
 # fxos-proposal_history-ui
-##### "The past affects the future" - a different app history viewer concept exemplified
+> *"The past affects the future" - a different app history viewer concept exemplified*
 
 I want to illustrate my proposal with this short user experience story: Depict a FxOS user. He has already opened 3 apps by now. The following graph depicts, in an abstract form, what the user sees when he opens the FirefoxOS `app history viewer`:
 
